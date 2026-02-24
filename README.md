@@ -18,6 +18,7 @@ Install missing dependency:
 
 ```bash
 pip install pyperclip
+```bash
 
 ## ▶️ How to Run
 Save the script as password_generator.py, then run:
