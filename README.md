@@ -19,3 +19,45 @@ Install missing dependency:
 ```bash
 pip install pyperclip
 
+## ▶️ How to Run
+Save the script as password_generator.py, then run:
+`python password_generator.py`
+
+You will be asked to enter:
+
+Password length
+
+Character-type combination (1–15)
+
+After selecting, the program prints a secure password and copies it to your clipboard.
+
+## 🧠 How It Works
+
+- Uses itertools to generate all character-type combinations
+- Prompts user to choose one combination
+- Splits password length evenly across selected character groups
+- Fills extra characters from a full pool
+- Randomizes the final output before displaying
+- Copies the final password using pyperclip
+
+## 📁 Project Structure
+```bash
+password_generator.py   # Main program
+README.md               # Documentation
+
+## 📝 Example Output
+```bash
+Starting Password Generator...
+
+    Length of Password: 12
+
+Select Character type number from the list:
+     1  ---  ('Numbers',)
+     2  ---  ('Uppercases',)
+     ...
+     15 ---  ('Numbers', 'Uppercases', 'Lowercases', 'Symbols')
+
+Type any serial number from the above list of combinations: 15
+
+Your password: Q9m$2g_Ab1!d
+Your password is copied to your clipboard.
