@@ -15,20 +15,15 @@ This project is a **terminal-based password generator** that allows users to cho
 - `pyperclip` library  
 
 Install missing dependency:
-
-```bash
-pip install pyperclip
-```bash
+`pip install pyperclip`
 
 ## ▶️ How to Run
 Save the script as password_generator.py, then run:
 `python password_generator.py`
 
 You will be asked to enter:
-
-Password length
-
-Character-type combination (1–15)
+1. Password length
+2. Character-type combination (1–15)
 
 After selecting, the program prints a secure password and copies it to your clipboard.
 
@@ -42,9 +37,8 @@ After selecting, the program prints a secure password and copies it to your clip
 - Copies the final password using pyperclip
 
 ## 📁 Project Structure
-```bash
-password_generator.py   # Main program
-README.md               # Documentation
+`password_generator.py   # Main program
+README.md               # Documentation`
 
 ## 📝 Example Output
 ```bash
