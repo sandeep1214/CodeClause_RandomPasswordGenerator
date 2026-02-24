@@ -37,8 +37,8 @@ After selecting, the program prints a secure password and copies it to your clip
 - Copies the final password using pyperclip
 
 ## 📁 Project Structure
-`password_generator.py   # Main program`
-`README.md               # Documentation`
+``password_generator.py   # Main program
+README.md               # Documentation``
 
 ## 📝 Example Output
 ```bash
